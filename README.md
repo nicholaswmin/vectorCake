@@ -3,7 +3,9 @@
 *Base Cake for building WISYWIG Vector-Graphic editors using Paper.js. 
 It includes the basic structure and only the most-basic Tools necessary to start building a vector editor that runs in a browser.*
 
-![Logo](http://nicholaswmin.github.io/VectorCake/logo.png)
+[Click to see Demo](http://nicholaswmin.github.io/vectorCake/)
+
+![Logo](http://nicholaswmin.github.io/vectorCake/logo.png)
 
 =====
 
