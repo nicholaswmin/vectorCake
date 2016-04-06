@@ -1,6 +1,6 @@
 ### VectorCake
 
-*Base Cake for building WISYWIG Vector-Graphic editors using Paper.js. 
+*Base Cake for building WYSIWYG Vector-Graphic editors using Paper.js. 
 It includes the basic structure and only the most-basic Tools necessary to start building a vector editor that runs in a browser.*
 
 [Click to see Demo](http://nicholaswmin.github.io/vectorCake/)
@@ -17,9 +17,9 @@ It includes the basic structure and only the most-basic Tools necessary to start
     - Multi-Selection by click+Shift
 
 - **Element Manipulation Tools**
-    - Move Element(Translation)
-    - Scale Element by dragging it's selection conrners(Transformation)
-    - Rotate Element by dragging it's selection corners(Transformation)
+    - Move Element *(Translation)*
+    - Scale Element by dragging it's selection corners *(Transformation)*
+    - Rotate Element by dragging it's selection corners *(Transformation)*
     - Delete Tool
 
 - **Undo/Redo**
