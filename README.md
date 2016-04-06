@@ -26,7 +26,7 @@ It includes the basic structure and only the most-basic Tools necessary to start
 
 - **Zoom Tools**    
     - Zoom in/out 
-    - Zoom to point(home zooming on mouse cursor)
+    - Zoom to point *(cursor-homing zoom)*
 
 =====
 
