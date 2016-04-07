@@ -39,5 +39,6 @@ It includes the basic structure and only the most-basic Tools necessary to start
 
 #### Authors ####
  - Nicholas Kyriakides (@nicholaswmin, nik.kyriakides@gmail.com) 
+ - Base code (undo, redo, toolstacks etc) from project [Stylii by Miko Mononen (@memononen)](https://github.com/memononen/stylii)
  
 =====
