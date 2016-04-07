@@ -1,6 +1,6 @@
 ### VectorCake
 
-*Base Cake for building WYSIWYG Vector-Graphic editors using Paper.js. 
+*Base Cake for building WYSIWYG Vector-Graphic editors using Paper.js.
 It includes the basic structure and only the most-basic Tools necessary to start building a vector editor that runs in a browser.*
 
 [Online Demo](http://nicholaswmin.github.io/vectorCake/)
@@ -25,20 +25,18 @@ It includes the basic structure and only the most-basic Tools necessary to start
 - **Undo/Redo**
 
 - **Zoom Tools**    
-    - Zoom in/out 
+    - Zoom in/out
     - Zoom to point *(cursor-homing zoom)*
 
 =====
 
 #### Tech ####
- - Based on [Paper.js](http://www.paperjs.org) 
- - [jQuery](http://www.jquery.com) 
- - [Bootstrap](http://www.getbootstrap.com) 
- - [SASS](http://sass-lang.com/) for stylesheets
+ - [Paper.js](http://www.paperjs.org)
+ - [jQuery](http://www.jquery.com)
+ - [SASS](http://sass-lang.com/) for stylesheets (*optional, you can just not use if not needed*)
 
 
 #### Authors ####
- - Nicholas Kyriakides (@nicholaswmin, nik.kyriakides@gmail.com) 
+ - Nicholas Kyriakides (@nicholaswmin, nik.kyriakides@gmail.com)
  - Base code (undo, redo, toolstacks etc) from project [Stylii by Miko Mononen (@memononen)](https://github.com/memononen/stylii)
  
-=====
