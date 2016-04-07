@@ -33,10 +33,9 @@ It includes the basic structure and only the most-basic Tools necessary to start
 #### Tech ####
  - [Paper.js](http://www.paperjs.org)
  - [jQuery](http://www.jquery.com)
- - [SASS](http://sass-lang.com/) for stylesheets (*optional, you can just not use if not needed*)
+ - [SASS](http://sass-lang.com/) for stylesheets (*optional, you can ignore and use vanilla CSS in `styles.css`*)
 
 
 #### Authors ####
  - Nicholas Kyriakides (@nicholaswmin, nik.kyriakides@gmail.com)
  - Base code (undo, redo, toolstacks etc) from project [Stylii by Miko Mononen (@memononen)](https://github.com/memononen/stylii)
- 
