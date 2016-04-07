@@ -5,11 +5,11 @@
  * - Contains code for supporting experiments/test functionality
  * - Remove this file and it's .js inclusion in live versions
  *
- * 
+ *
  * Authors:
  *
  *  - Nicholas Kyriakides(@nicholasmin, nik.kyriakides@gmail.com)
- *  
+ *
  */
 
 
@@ -24,10 +24,10 @@
     };
 
     paper.view.update();
+    undo.snapshot("Initial state");
   }
 
 
   setTimeout(function() {
     blitTestShapes(1);
   },100);
-
