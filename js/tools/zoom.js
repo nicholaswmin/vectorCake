@@ -5,11 +5,11 @@
  * - Homes in on mouse cursor
  * - Not part of toolStack.js and cannot be activated/deactivated - it is triggered on mouse scroll on canvas
  *
- * 
+ *
  * Authors:
  *
  *  - Nicholas Kyriakides(@nicholasmin, nik.kyriakides@gmail.com)
- *  
+ *
  */
 
 
@@ -29,10 +29,12 @@ toolZoomIn.upperZoomLimit = 30;
 
 $(document).ready(function () {
 
-    //Start of mouse scroll zoom. The mouse zoom ''homes in'' on the current mouse position. 
+    //Start of mouse scroll zoom. The mouse zoom ''homes in'' on the current mouse position.
     $('#canvas').bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (e) {
 
         var delta = 0;
+        var mouseX = e.originalEvent.clientX;
+        var mouseY = e.originalEvent.clientY;
         var children = paper.project.activeLayer.children;
 
         e.preventDefault();
@@ -44,27 +46,25 @@ $(document).ready(function () {
         }
 
         // scroll up
-        if ((delta > 0) && (paper.view.zoom < toolZoomIn.upperZoomLimit)) { 
-
-            var point = new paper.Point(e.clientX,e.clientY);
+        if ((delta > 0) && (paper.view.zoom < toolZoomIn.upperZoomLimit)) {
+            var point = new paper.Point(mouseX, mouseY);
             point = paper.view.viewToProject(point);
             var zoomCenter = point.subtract(paper.view.center);
             var moveFactor = toolZoomIn.zoomFactor - 1.0;
             paper.view.zoom *= toolZoomIn.zoomFactor;
             paper.view.center = paper.view.center.add(zoomCenter.multiply(moveFactor / toolZoomIn.zoomFactor));
             toolZoomIn.mode = '';
-            
+
         //scroll down
         } else if ((delta < 0) && (paper.view.zoom > toolZoomIn.lowerZoomLimit)) {
-
-            var point = new paper.Point(e.clientX,e.clientY);
+            var point = new paper.Point(mouseX, mouseY);
             point = paper.view.viewToProject(point);
             var zoomCenter = point.subtract(paper.view.center);
             var moveFactor = toolZoomIn.zoomFactor - 1.0;
             paper.view.zoom /= toolZoomIn.zoomFactor;
             paper.view.center = paper.view.center.subtract(zoomCenter.multiply(moveFactor))
         }
-        
+
     });
 
 });
