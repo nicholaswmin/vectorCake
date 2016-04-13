@@ -33,8 +33,8 @@ $(document).ready(function () {
     $('#canvas').bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (e) {
 
         var delta = 0;
-        var mouseX = e.originalEvent.clientX;
-        var mouseY = e.originalEvent.clientY;
+        var mouseX = e.originalEvent.offsetX;
+        var mouseY = e.originalEvent.offsetY;
         var children = paper.project.activeLayer.children;
 
         e.preventDefault();
