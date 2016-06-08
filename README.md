@@ -1,6 +1,6 @@
 ### VectorCake
 
-*Base Cake for building WYSIWYG Vector-Graphic editors using Paper.js.
+Base Cake for building WYSIWYG *(What-You-See-Is-What-You-Get)* -  Vector Graphics editors using Paper.js.
 It includes the basic structure and only the most-basic Tools necessary to start building a vector editor that runs in a browser.*
 
 [Online Demo](http://nicholaswmin.github.io/vectorCake/)
